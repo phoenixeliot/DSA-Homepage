@@ -49,12 +49,14 @@
       color: white
 
 .jumbotron
+  // display: none
   position: relative
   background-color: grey
   background-image: url('https://unsplash.it/1440/700')
   background-repeat: no-repeat
   background-size: cover
   height: 700px
+  border-bottom: 6px solid red
   
   .mask
     width: 100%
@@ -85,4 +87,42 @@
     position: absolute
     bottom: 50px
     left: 50%
+
+.events
+  position: relative
+  height: 500px
+  border-bottom: 6px solid red
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+  
+  .background-image
+    position: absolute
+    height: 100%
+    width: 100%
+    opacity: 0.3
+    background-image: url('https://unsplash.it/1440/700')
+    background-repeat: no-repeat
+    background-size: cover
+  
+  .event
+    position: relative
+    margin-left: 12.5px
+    margin-right: 12.5px
+    width: 440px
+    height: 320px
+    border: 2px solid red
+    text-transform: uppercase
+    background-image: url('https://unsplash.it/440/320')
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+    font-family: HelveticaNeue
+    font-size: 20px
+    font-weight: bold
+    line-height: 1.2
+    color: white
+    
   
