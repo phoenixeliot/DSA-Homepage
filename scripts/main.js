@@ -3,3 +3,7 @@ var helloWorld = function() {
 };
 
 helloWorld();
+
+setTimeout(function(){
+  // $('body').load('/index.html')
+}, 500)

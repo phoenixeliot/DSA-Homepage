@@ -1,14 +1,51 @@
-$heading-color: hotpink
+// 1440px target width
 
-h1
-  color: $heading-color
+.header
+  position: relative
+  height: 106px
+  background-color: #ec1f27
 
-body
-  background-color: red
-  display: none
+  .logo-name-wrapper
+    position: absolute
+    left: 32px
+    height: 106px
+    width: 328px
 
-*
-  display: none
+    .logo-image, h1
+      position: absolute
+      bottom: 4px
+      left: 0
+    
+  ul
+    position: absolute
+    bottom: 0px
+    right: 0
+    li.active
+      border-bottom: 3px solid white
+    li
+      display: inline-block
+      margin-right: 33px
+      padding-bottom: 10px
+      list-style: none
+      font-family: HelveticaNeue
+      font-size: 20px
+      text-align: center
+      color: white
+
+.jumbotron
+  background-color: grey
+  h2
+    max-width: 50%
+    font-family: HelveticaNeue
+    font-size: 40px
+    font-weight: bold
+    line-height: 1.08
+    color: white
   
-h1
-  color: green
+  h3
+    font-family: HelveticaNeue
+    font-size: 20px
+    line-height: 1.25
+    color: #ffffff
+  
+  
