@@ -4,6 +4,25 @@
   padding-right: 32px
   max-width: 1440px
 
+h2
+  font-family: HelveticaNeue
+  font-size: 40px
+  font-weight: bold
+  line-height: 1.08
+
+h3
+  font-family: HelveticaNeue
+  font-size: 20px
+  line-height: 1.25
+
+p
+  font-family: HelveticaNeue
+  font-size: 18px
+
+.small
+  font-family: HelveticaNeue
+  font-size: 14px
+
 .btn-lg
   padding: 15px 30px
   background-color: #ec1f27
@@ -15,6 +34,18 @@
   font-weight: bold
   letter-spacing: 0.1px
   color: white
+
+.btn-inverse
+  padding: 15px 30px
+  background-color: white
+  border-radius: 3px
+  border: thin solid #ec1f27
+  text-transform: uppercase
+  font-family: 'Arial'
+  font-size: 14px
+  font-weight: bold
+  letter-spacing: 0.1px
+  color: red
 
 .header
   position: relative
@@ -71,16 +102,9 @@
     left: 0
     top: 40%
     h2
-      font-family: HelveticaNeue
-      font-size: 40px
-      font-weight: bold
-      line-height: 1.08
       color: white
     
     h3
-      font-family: HelveticaNeue
-      font-size: 20px
-      line-height: 1.25
       color: #ffffff
     
   .call-to-action
@@ -125,4 +149,38 @@
     line-height: 1.2
     color: white
     
-  
+.next-event
+  text-align: center
+  .next-event-headers
+    padding-top: 95px
+    padding-bottom: 80px
+    h2
+      padding-bottom: 10px
+      
+  .offset-background
+    height: 186px
+    background-image: url('https://unsplash.it/1440/186')
+    background-repeat: no-repeat
+    background-size: cover
+    display: flex
+    justify-content: center
+    margin-top: 30px
+
+    .next-event-details
+      width: 675px
+      height: 176px
+      background-color: white
+      border: 2px solid red
+      margin-top: -30px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      
+      .event-title
+        font-weight: bold
+      
+      .small
+        color: #393939
+      
+      .btn-inverse
